@@ -2,8 +2,10 @@ import { Manrope } from "next/font/google";
 import "./globals.css";
 
 const manropeSans = Manrope({
-	variable: "--font-geist-sans",
+	variable: "--font-manrope-sans",
 	subsets: ["latin"],
+	weight: ["200", "300", "400", "500", "600", "700", "800"],
+	preload: true,
 });
 
 export const metadata = {
